@@ -1,0 +1,64 @@
+body{margin:0;}
+div{box-sizing: border-box; }
+h1{font-size:30px;}
+h4{font-size:22px;}
+h5{font-size:20px;}
+.clear{clear:both;}
+.btn{padding:15px 20px; font-size:16px; font-weight:600; border:none; border-radius: 5px; cursor: pointer;}
+
+.main{height:550px; background-image: linear-gradient(to bottom, #499add, #4e61c0); color:white; padding-top:40px;}
+.main-container{max-width: 1200px; margin:0 auto;}
+.main-text{float:left; }
+.btn-black{color:#fff; background-color:#444;}
+.btn-black:hover{background-color: rgb(97, 97, 97);}
+.btn-black:active{background-color: rgb(102, 50, 245);}
+.main-img{width:400px; float: right; margin-top:75px;}
+
+@media screen and (max-width:992px){
+    .main-img{width:260px; display:block; float:none; margin:auto; margin-top:42px;}
+    .main-text{float:none; text-align: center;}    
+}
+
+.sub{width:100%; background-color: #fff; text-align: center; padding:50px 20px 50px 20px;}
+.sub-title{font-size: 18px; font-weight: bold; margin-top:42p }
+
+
+.icon{width:100%; color:#fff; text-align: center; background-color: rgb(46, 64, 230); padding:40px 20px 60px 20px; }
+.icon-item{display:flex;}
+.icon-item div{width:25%;}
+.icon-bg{background-color: #fff; width:100px; height:100px; color:#4161c0; box-sizing: border-box; padding:35px; border-radius: 50%;}
+.icon-text{width:100%;}
+
+@media screen and (max-width:992px){
+    .icon-item{flex-direction: column;}
+    .icon-item div{width:100%;}
+    
+}
+
+
+
+.card{width:100%; background-color: #fff; text-align: center; padding-top:30px; }
+.card-container{max-width: 1200px; text-align: left; margin:auto;}
+.card-item1{background:url(../images/portfolio-1.jpg); float:left; height:350px; width:50%; background-size: cover; position: relative;}
+.card-item2{background:url(../images/portfolio-2.jpg); float:left; height:350px; width:50%; background-size: cover; position: relative;}
+.card-item3{background:url(../images/portfolio-3.jpg); float:left; height:350px; width:50%; background-size: cover; position: relative;}
+.card-item4{background:url(../images/portfolio-4.jpg); float:left; height:350px; width:50%; background-size: cover; position: relative;}
+.card-text{color:#fff; width:100%; padding:60px;}
+.white-box{position: absolute; width:100%; height:100%; border:0px solid white; transition: border 0.5s;}
+.white-box:hover{border:30px solid white;}
+
+@media screen and (max-width:992px){
+    .card-item1{float:none; width:100%;}
+    .card-item2{float:none; width:100%;}
+    .card-item3{float:none; width:100%;}
+    .card-item4{float:none; width:100%;}    
+}
+
+
+
+footer{width:100%; background-color: #fff; text-align: center; padding:60px 30px 60px 30px;}
+.footer-container{max-width:768px; margin:auto;}
+.footer-item{display:flex;}
+.footer-item div{width:31%;}
+.ft-bg{background-color: #4161c0; width:75px; height:75px; box-sizing: border-box; border-radius: 50%; padding:20px;}
+
